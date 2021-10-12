@@ -10,7 +10,7 @@ Matching between entries is done using FuzzySharp, a C# implementation of the Fu
 Input data is read in from test_data/org_names.json. The reduced list is saved in the same directory.
 
 ## Parameters
-Takes three parameters, in order.
+Takes three command-line parameters, in order.
 |                |                         ||
 |----------------|-------------------------------|-----------------------------|
 |Similarity threshold|int, 0-100 range; default 92            |Determines how similar names must be to be considered duplicates; 0 is most permissive, 100 least           |
